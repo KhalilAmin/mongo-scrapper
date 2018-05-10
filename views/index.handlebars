@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Mongo-News-Scrapper</h1>
+  </div>
+
+  <ul>
+    {{#each articles }}
+    <div class="article">
+      <h1>{{headline}}</h1>
+      <p>{{summary}}</p>
+      <a href={{url}}>Go To</a>
+    </div>
+    {{/each}}
+  </ul>
+</div>
